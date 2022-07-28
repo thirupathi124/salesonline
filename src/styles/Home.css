@@ -1,0 +1,1212 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('http://fonts.cdnfonts.com/css/made-canvas');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-title {
+    font: normal normal normal 89px/44px 'MADE Canvas';
+    color: #FFE282;
+    text-transform: uppercase;
+}
+
+.hero-collection {
+    font: normal normal normal 38px/44px 'MADE Canvas';
+    letter-spacing: 47.8px;
+    color: #FFE282;
+    text-transform: uppercase;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-title {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.hero-collection {
+    position: absolute;
+    top: 43%;
+    left: 8%;
+}
+
+.hero-shop {
+    position: absolute;
+    top: 57%;
+    left: 8%;
+}
+
+.hero-shop {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    font: normal normal normal 18px 'Poppins';
+    width: 125px;
+    height: 41px;
+}
+
+.hero-brandname {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    border-bottom: 1px solid #909090;
+
+}
+
+.hero-first {
+    font-family: 'Kaushan Script', 'cursive';
+    font-size: 20px;
+    color: #909090;
+    text-transform: uppercase;
+}
+
+.hero-second {
+    font-family: 'Tangerine', 'cursive';
+    font-size: 30px;
+    color: #909090;
+    text-transform: uppercase;
+}
+
+.hero-third {
+
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #909090;
+}
+
+b {
+    opacity: 0.3;
+}
+
+.hero-four {
+    color: rgb(7, 93, 173);
+    font-size: 20px;
+
+}
+
+.hero-five {
+    font-size: 20px;
+    font-family: serif;
+    text-transform: uppercase;
+    color: #909090;
+
+}
+
+.hero-six {
+    color: #909090;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.hero-seven {
+    color: #909090;
+    font-size: 20px;
+}
+
+.arrival {
+    padding: 80px 0px 0px 0px;
+    text-align: left;
+    font-family: '''MADE Canvas''', sans-serif;
+    letter-spacing: 0.11px;
+    color: #000000;
+    opacity: 1;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+
+.arrivals {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.arrival-img {
+    width: 290px;
+    height: 544px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CED4DA;
+    opacity: 1;
+}
+
+.arrival-img-diff {
+    width: 290px;
+    height: 544px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CED4DA;
+    opacity: 1;
+    position: relative;
+    display: inline-block;
+
+
+
+}
+
+.arrival-img-diff:hover {
+
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+
+.arrival-img-diff:hover .try {
+    display: block;
+}
+
+.slide-show {
+    margin-top: 80px;
+}
+
+.try {
+    position: absolute;
+    top: 58%;
+    left: 8%;
+    display: none;
+}
+
+
+.try-view {
+
+    width: 242px;
+    height: 49px;
+    background: #F8F9FA 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #212529;
+    text-transform: uppercase;
+    opacity: 1;
+    border: 2px solid #F8F9FA;
+}
+
+
+.arrival-align {
+    padding-left: 16px;
+}
+
+.arrival-text {
+    font: normal normal 600 16px 'Poppins';
+    letter-spacing: 0.06px;
+    color: #6C757D;
+    opacity: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+.title {
+    text-align: left;
+    font: normal normal 500 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #212529;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.rate {
+    text-align: left;
+    font: normal normal 600 20px/30px 'Poppins';
+    letter-spacing: 0.08px;
+    color: #212529;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.no-rate {
+    text-decoration: line-through;
+    font: normal normal normal 12px 'Poppins';
+    letter-spacing: 0.06px;
+    color: #FFB8B8;
+    padding-left: 10px;
+
+}
+
+.collection {
+    padding: 120px 0px 0px 133px;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    flex-wrap: wrap;
+
+}
+
+.col-title {
+    text-align: left;
+    font: normal normal normal 89px 'MADE Canvas';
+    color: #FF4444;
+    text-transform: uppercase;
+}
+
+.col-text {
+    text-align: left;
+    font: normal normal normal 38px 'MADE Canvas';
+    color: #FF4444;
+    text-transform: uppercase;
+    letter-spacing: 40.43px;
+}
+
+.col-para {
+    width: 674px;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #212529;
+    opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.col-btn {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 2px solid black;
+    width: 260px;
+    height: 56px;
+    font: normal normal normal 18px/30px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-top: 56px;
+}
+
+.cloth-title {
+    font: normal normal 900 28px/33px 'MADE Canvas';
+    letter-spacing: 0.11px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 120px;
+}
+
+.cloth-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 60px 0px 0px 0px;
+    gap: 20px;
+}
+
+.first-try {
+    width: 292px;
+    height: 534px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CED4DA;
+    opacity: 1;
+}
+
+.cloth-name {
+    font: normal normal 600 24px/35px 'Poppins';
+    letter-spacing: 0.1px;
+    color: #212529;
+    opacity: 1;
+    text-align: center;
+    padding: 18px 0px 22px 0px;
+}
+
+.cloth-btn {
+    width: 244px;
+    height: 49px;
+    background: #E9ECEF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    font: normal normal normal 18px/27px 'Poppins';
+    letter-spacing: 0.07px;
+    color: black;
+    opacity: 1;
+    margin-left: 20px;
+    text-transform: uppercase;
+    border: 1px solid #E9ECEF;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.link-btn {
+
+    background: black 0% 0% no-repeat padding-box;
+    font: normal normal normal 18px/27px 'Poppins';
+    letter-spacing: 0.07px;
+    color: white;
+    opacity: 1;
+    text-transform: uppercase;
+    border: 1px solid #E9ECEF;
+    cursor: pointer;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-btn:hover {
+    color: white;
+}
+
+.cloth-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.ipsum {
+    margin-left: 135px;
+}
+
+.img-size {
+    width: 398px;
+    height: 638px;
+    position: relative;
+}
+
+
+
+.ipsum {
+    display: flex;
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+    gap: 18%;
+    flex-wrap: wrap;
+}
+
+.lorem-img {
+    position: absolute;
+    padding-top: 130px;
+    right: 12%;
+
+}
+
+.lorem-text {
+    width: 535px;
+    height: 115px;
+    text-align: left;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #212529;
+    opacity: 1;
+}
+
+.lorem-title {
+    font: normal normal normal 86px 'MADE Canvas';
+    letter-spacing: 0px;
+    color: #B39874;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.lorem-btn {
+    width: 260px;
+    height: 56px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal normal 18px/30px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.jewell-title {
+    padding: 120px 0px 60px 0px;
+    font: normal normal 900 28px 'MADE Canvas';
+    letter-spacing: 0.11px;
+    color: #000000;
+    opacity: 1;
+}
+
+.jeweell {
+    width: 100%;
+    height: auto;
+}
+
+.jewell-head {
+    text-align: center;
+    font: normal normal normal 28px 'MADE Canvas';
+    letter-spacing: 0.11px;
+    color: #212529;
+    opacity: 1;
+    padding-bottom: 60px;
+}
+
+.jewell-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.jewell-style {
+    width: 292px;
+    height: 544px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CED4DA;
+    opacity: 1;
+    position: relative;
+    display: inline-block;
+}
+
+.jewell-pop {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: none;
+}
+
+.jewell-style:hover .jewell-pop {
+    display: block;
+}
+
+.try-jewell {
+
+    width: 200px;
+    height: 49px;
+    background: #F8F9FA 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #212529;
+    text-transform: uppercase;
+    opacity: 1;
+    border: 2px solid #F8F9FA;
+    padding: 10px 10px 10px 10px;
+    margin-left: 42px;
+
+
+}
+
+.jewell-style:hover {
+    box-shadow: 0 0 8px #212529;
+}
+
+.jewellbtn {
+    margin: 0 auto;
+    display: block;
+    width: 260px;
+    height: 56px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal normal 18px/30px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 96px;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+.fine-jewell {
+    padding: 140px 0px 40px 0px;
+
+}
+
+.fine-title {
+    text-align: center;
+    font: normal normal normal 28px 'MADE Canvas';
+    letter-spacing: 0.11px;
+    color: #212529;
+    opacity: 1;
+    padding-bottom: 60px;
+}
+
+.fine-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fine {
+    width: 291px;
+    height: 544px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CED4DA;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    display: none;
+}
+
+
+
+.fine-width {
+    width: 100%;
+    height: auto;
+}
+
+.color-title {
+    text-align: center;
+    padding-top: 70px;
+    font: normal normal normal 24px/30px 'MADE Canvas';
+    letter-spacing: 0.1px;
+    color: #212529;
+    opacity: 1;
+}
+
+.about-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 284px);
+    grid-auto-rows: 167px;
+    justify-content: center;
+    grid-gap: 10%;
+    flex-wrap: wrap;
+
+}
+
+.about-title {
+    padding: 10px 0px 4px 0px;
+    text-align: center;
+    font: normal normal medium 'Poppins';
+    letter-spacing: 0.09px;
+    color: #212529;
+    opacity: 1;
+    font-size: 22px;
+}
+
+.about-para {
+    text-align: center;
+    font: normal normal 300 14px 'Poppins';
+    letter-spacing: 0.06px;
+    color: #212529;
+    opacity: 1;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+
+}
+
+.about-backcolor {
+    width: 82%;
+    height: 400px;
+    background: #FFF1DF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.left-click {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.left-click:hover {
+    opacity: 1;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer {
+    background: #212529 0% 0% no-repeat padding-box;
+    height: 778px;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.first-grid {
+    padding: 96px 0px 0px 40px;
+}
+
+.foot-logo {
+    font: normal normal normal 42px 'MADE Canvas';
+    letter-spacing: 0px;
+    color: #FF4444;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.foot-title {
+    font: normal normal 300 18px/27px 'Poppins';
+    letter-spacing: 5.65px;
+    color: #FF4444;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-left: 20px;
+}
+
+.map-fill {
+    display: flex;
+    gap: 10px;
+
+}
+
+.hang {
+    margin-bottom: auto;
+    padding-top: 53px;
+}
+
+.map-text {
+    padding-top: 50px;
+    color: #FFF1DF;
+    font-family: 'Poppins';
+    font-size: 18px;
+
+}
+
+.email-fill {
+    display: flex;
+    gap: 10px;
+
+}
+
+.mail {
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+    opacity: 1;
+    padding-top: 20px;
+}
+
+.what-fill {
+    display: flex;
+    gap: 10px;
+
+}
+
+.what-text {
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+    opacity: 1;
+    padding-top: 20px;
+}
+
+.time-fill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time {
+    font: normal normal normal 18px/27px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+    opacity: 1;
+    padding-top: 20px;
+}
+
+.help {
+    padding: 20px 0px 10px 0px;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+    opacity: 1;
+}
+
+.help-title {
+    text-align: left;
+    font: normal normal 600 32px/48px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+    opacity: 1;
+}
+
+.second-grid {
+    padding-top: 134px;
+    padding-left: 100px;
+}
+
+.map {
+    width: 498px;
+    height: 302px;
+    margin: 154px 0px 0px 0px;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 38px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.bor {
+    border-top: 1px solid gray;
+    width: 70%;
+    height: 10px;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.lines {
+    border-top: 1px solid white;
+}
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.by {
+    font: normal normal normal 16px/25px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+}
+
+.gap {
+    padding: 0 10px;
+}
+
+.copyright {
+    font: normal normal normal 16px/25px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFF1DF;
+    opacity: 1;
+}
+
+.border {
+    border: 1px solid white;
+
+}
+
+.carousel-control-next-icon {
+    margin-left: 180px;
+
+}
+
+.carousel-control-prev-icon {
+    margin-right: 180px;
+
+
+}
+
+.control-next-icon {
+    display: block;
+}
+
+.new-arival {
+    width: 100%;
+    height: auto;
+}
+
+.moreview {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* //Mobile reaposive */
+
+@media screen and (max-width:760px) {
+    .footer-flex {
+        grid-template-columns: repeat(auto-fit, 500px);
+
+    }
+
+    .arrivals {
+        display: grid;
+        grid-template-columns: repeat(4, 200px)
+    }
+
+    .right,
+    .left {
+        display: none;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .map {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+
+    .second-grid {
+        padding: 20px 0px 0px 0;
+        overflow: hidden;
+    }
+
+    .help {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .first-grid {
+        padding: 20px 0px 0px 20%;
+    }
+
+    .logo-flex {
+        margin-top: 80px;
+    }
+
+    .copyright {
+        padding-bottom: 80px;
+    }
+
+    .bor {
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .try {
+        position: absolute;
+        left: 20%;
+        font-size: 15px;
+
+
+    }
+
+    .try-view {
+        width: auto;
+        height: auto;
+    }
+
+    .head-color {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 20px
+    }
+
+    .hero-collection {
+        font-size: 10px;
+        letter-spacing: 10px;
+    }
+
+    .hero-shop {
+        width: auto;
+        height: auto;
+        font-size: 10px;
+        margin-top: 10px;
+        padding: 4px;
+
+    }
+
+    .hero-brandname {
+        padding: 10px;
+    }
+
+    .hero-first {
+        font-size: 13px;
+    }
+
+    .hero-second {
+        font-size: 14px;
+    }
+
+    .hero-third,
+    .hero-five,
+    .hero-seven {
+        display: none;
+    }
+
+    .hero-six {
+        font-size: 14px;
+    }
+
+    .hero-five {
+        font-size: 14px;
+    }
+
+    .hero-img {
+        width: 100%;
+
+    }
+
+    .collection {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .modern-saree {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-title {
+        font-size: 30px;
+    }
+
+    .col-text {
+        font-size: 20px;
+        letter-spacing: 20px;
+    }
+
+    .col-para {
+        width: auto;
+        text-align: justify;
+    }
+
+    .lorem-title {
+        font-size: 30px;
+    }
+
+    .lorem-text {
+        width: auto;
+        text-align: justify;
+    }
+
+    .ipsum {
+        padding: 30px 20px 20px 20px;
+        margin: 0;
+    }
+
+    .img-size {
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .lorem-poistion {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .lorem-img {
+        height: auto;
+        display: none;
+    }
+
+
+
+    .full-layout {
+        margin: 0;
+    }
+
+    .about-flex {
+        grid-template-columns: repeat(auto-fit, 284px);
+        grid-auto-rows: auto;
+        grid-gap: 10px;
+    }
+
+    .about-backcolor {
+        width: auto;
+        height: 100%;
+
+    }
+
+    .arrival-img-diff {
+        width: 100%;
+        height: auto;
+    }
+
+    .arrival-align {
+        padding: 5px 0px 15px 10px;
+    }
+
+    .arrival-text {
+
+        padding: 0;
+    }
+
+    .arrival {
+        padding: 20px 0px 40px 0px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .rate {
+        font-size: 14px;
+    }
+
+
+    .slide-show {
+        margin: 0;
+    }
+
+    .cloth-flex {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+    }
+
+    .fine {
+        width: 100%;
+        height: auto;
+    }
+
+    .fine-flex {
+        gap: 10px;
+    }
+
+    .jewell-style {
+        width: 100%;
+        height: auto;
+    }
+
+    .first-try {
+        width: 100%;
+        height: auto;
+    }
+
+    .cloth-name {
+        font-size: 14px;
+        padding: 0;
+
+    }
+
+    .try-jewell {
+        width: auto;
+        height: auto;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .jewell-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 180px)
+    }
+
+    .fine-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+    }
+
+    .class-name {
+        width: auto;
+        height: auto;
+        font-size: 10px;
+        margin-bottom: 20px;
+        padding: 5px 10px 5px 10px;
+
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:1280px) {
+    .lorem-img {
+        position: absolute;
+        padding-top: 525px;
+        left: 35%;
+    }
+
+
+
+    .lorem-position {
+        margin-top: 80px;
+    }
+
+    .about-backcolor {
+        width: auto;
+    }
+
+    .jewell-title {
+        padding: 80px 0px 0px 50px;
+    }
+
+
+
+    .arrival-img-diff {
+        width: 100%;
+        height: auto;
+    }
+
+    .first-try {
+        width: 100%;
+        height: auto;
+    }
+
+    .fine-flex {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .cloth-btn {
+        width: auto;
+        padding: 5px 25px 5px 25px;
+        margin-bottom: 10px;
+    }
+
+    .try-jewell {
+        margin-left: 25px;
+    }
+
+}
+
+
+@media screen and (max-width:1500px) {
+
+    .about-backcolor {
+        width: auto;
+    }
+
+    .lorem-img {
+        position: absolute;
+        padding-top: 539px;
+        left: 38%;
+    }
+
+    .lorem-position {
+        margin-top: 80px;
+    }
+
+    .hero-collection {
+        position: absolute;
+        top: 47%;
+        left: 8%;
+    }
+
+    .jewell-flex {
+        gap: 30px;
+    }
+
+    .fine-flex {
+        gap: 30px;
+    }
+
+    .first-try {
+        height: auto;
+    }
+
+    .jewell-style {
+        height: auto;
+    }
+
+    .fine {
+        height: auto;
+    }
+
+    .cloth-btn {
+        width: auto;
+        padding: 5px 25px 5px 25px;
+        margin-bottom: 10px;
+    }
+
+    .try-jewell {
+        margin-left: 22px;
+    }
+
+}

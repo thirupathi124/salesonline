@@ -1,0 +1,407 @@
+.payment-layout {
+    padding: 61px 0px 0px 280px;
+
+}
+
+.payment-left-flex {
+    display: flex;
+    gap: 13%;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.mode-type {
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0.06px;
+    color: #6C757D;
+    opacity: 1;
+}
+
+.mode-product {
+    font-size: 32px;
+}
+
+.mode-detail {
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0.06px;
+    color: #6C757D;
+    opacity: 1;
+}
+
+.pay-hover {
+    background-color: black;
+    color: white;
+}
+
+.size-pay {
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0.06px;
+    color: #6C757D;
+    opacity: 1;
+}
+
+.color-pay {
+    display: flex;
+    gap: 24px;
+    padding: 10px 0px 10px 0px;
+}
+
+.payments {
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.pay-qual {
+    font: normal normal 400 16px/25px Poppins;
+    letter-spacing: 0.06px;
+    color: #6C757D;
+    opacity: 1;
+    padding-top: 20px;
+}
+
+.pay-white {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #6C757D;
+
+}
+
+.payment-price {
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0.06px;
+    color: #6C757D;
+    opacity: 1;
+}
+
+.payment-rate {
+    font: normal normal 500 24px/5 Poppins;
+    letter-spacing: 0.1px;
+    color: #212529;
+}
+
+.payment-dis {
+    text-decoration: line-through;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0.08px;
+    color: #FF4444;
+    padding-left: 10px;
+    margin-bottom: 90px;
+}
+
+.payment-btn {
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0.08px;
+    color: #E9ECEF;
+    opacity: 1;
+    text-transform: uppercase;
+    padding: 10px 160px 10px 150px;
+    text-decoration: none;
+}
+
+.payment-btn:hover {
+    color: white;
+}
+
+.card-btn {
+    width: 400px;
+    height: 48px;
+    background: white 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0.08px;
+    color: #6C757D;
+    opacity: 1;
+    margin-top: 20px;
+    border: 1px solid #6C757D;
+    text-transform: uppercase;
+
+}
+
+.img-pay {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.small-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.small-imgs {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    opacity: 0.3;
+}
+
+.payment-content {
+    display: flex;
+    gap: 13%;
+    margin-top: 51px;
+    flex-wrap: wrap;
+
+
+}
+
+.detail-pay {
+    width: 536px;
+
+}
+
+.payment-graph {
+    padding-top: 20px;
+}
+
+
+.payment-help {
+    width: 400px;
+    height: 263px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: 0px 8px 32px #0c335a14;
+    padding: 12px 0px 0px 15px;
+}
+
+.pay-details {
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0.06px;
+    color: #495057;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+li {
+    font: normal normal normal 14px Poppins;
+    letter-spacing: 0.06px;
+    color: #212529;
+    opacity: 1;
+}
+
+.detail-pay {
+    font: normal normal normal 14px Poppins;
+    letter-spacing: 0.06px;
+    color: #212529;
+    opacity: 1;
+}
+
+.need-help {
+    font: normal normal 600 16px Poppins;
+    letter-spacing: 0.06px;
+    color: #495057;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.need-back {
+    width: 48px;
+    height: 48px;
+    background: whitesmoke 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.contact-social {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.pad {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 17px;
+}
+
+.span-text {
+    font: normal normal normal 16px Poppins;
+    letter-spacing: 0.06px;
+    color: #495057;
+    opacity: 1;
+}
+
+.may-like {
+    font: normal normal normal 32px/37px MADE Canvas;
+    letter-spacing: 0.13px;
+    color: #212529;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-top: 120px;
+}
+
+.payment-grid-flex {
+
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 0px 200px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay-social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.back-color {
+    width: 18px;
+    height: 18px;
+}
+
+.back-desing {
+    width: 32px;
+    height: 32px;
+    background-color: #E9ECEF;
+    border-radius: 20px;
+    padding: 1px 7px 0px 8px;
+    cursor: pointer;
+}
+
+.flex-caro {
+    width: 100%;
+    height: auto;
+}
+
+.saree-right {
+    padding-left: 20px;
+}
+
+/* //mobile resposive */
+
+@media screen and (max-width:720px) {
+    .payment-layout {
+        padding: 0;
+    }
+
+    .pay-ment {
+        display: none;
+    }
+
+    .pay-social {
+        display: block;
+
+    }
+
+    .payment-size {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .gram {
+        display: none;
+    }
+
+    .mode-product {
+        width: auto;
+        font-size: 18px;
+
+    }
+
+    .mode-detail {
+        width: auto;
+
+    }
+
+    .payment-size {
+        width: 100%;
+        height: auto;
+    }
+
+    .payment-right-flex {
+        padding-left: 20px;
+    }
+
+    .payment-btn {
+        width: auto;
+        padding: 10px 50px 10px 50px;
+    }
+
+    .card-btn {
+        width: auto;
+        padding: 10px 26px 10px 26px;
+
+    }
+
+    .img-pay {
+        padding-left: 20px;
+    }
+
+    .payment-graph {
+        padding-left: 20px;
+    }
+
+    .payment-help {
+        margin-left: 20px;
+        width: auto;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .detail-pay {
+        width: auto;
+    }
+
+    .payment-grid-flex {
+        padding: 0;
+        width: auto;
+        height: auto;
+
+    }
+
+    .saree-grid {
+        width: 10px;
+    }
+
+    .saree-desing {
+        width: 100%;
+        height: auto;
+    }
+
+    .payment-grid-flex {
+        gap: 10px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .sareename {
+        font-size: 12px;
+    }
+
+    .saree-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .payment-grid-flex {
+        gap: 20px;
+    }
+
+    .payment-layout {
+        padding: 40px 40px 40px 40px;
+    }
+
+    .pagination {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+    .payment-grid-flex {
+        padding: 0;
+    }
+}

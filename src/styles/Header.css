@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.full-layout {
+    margin: 0px 140px 0px 140px;
+}
+
+.expand {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+}
+
+.first-flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.head-gap {
+    cursor: pointer;
+    font: normal normal normal 16px 'Poppins';
+}
+
+.head-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    border-bottom: 1px solid #909090;
+}
+
+.second-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.head-btn {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    font: normal normal normal 18px 'Poppins';
+    width: 125px;
+    height: 41px;
+}
+
+.color {
+    padding: 13px;
+}
+
+.search-color {
+    width: 58px;
+    height: 58px;
+    background: linear-gradient(#F3F3F3, #FFFFFF);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.shoping {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.shoping::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #cd1212;
+}
+
+.head-login {
+    font: normal normal normal 18px 'Poppins';
+    color: #212529;
+    cursor: pointer;
+}
+
+.block {
+    position: absolute;
+    top: 200%;
+    left: 10%;
+    background-color: white;
+    z-index: 9999;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.block:hover {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 0px 20px 0px;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.nav:hover {
+    color: hotpink;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.toogle {
+    display: none;
+}
+
+
+
+.header-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 290px;
+    height: 60px;
+    background: linear-gradient(#F3F3F3, #FFFFFF);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font: normal normal normal 18px 'Poppins';
+    letter-spacing: 0.07px;
+    color: gray;
+
+
+}
+
+.search-color:hover .header-hover {
+    display: block;
+}
+
+.expand-bar {
+    cursor: pointer;
+}
+
+
+
+/* mobile responsive */
+
+@media screen and (max-width : 760px) {
+    .toogle {
+        display: block;
+    }
+
+    .side-icon {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .head-login {
+        display: none;
+    }
+
+    .full-layout {
+        margin: 0;
+
+    }
+
+    .head-search {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .search-color {
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    .expand {
+        padding: 0;
+    }
+
+    .first-flex {
+        gap: 10px;
+    }
+
+    .head-flex {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .head-gap {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .hero-logo {
+        width: 100px;
+        height: auto;
+
+    }
+
+    .head-btn {
+        display: none;
+    }
+
+    .second-flex {
+        gap: 20px;
+        padding-right: 10px;
+
+    }
+
+    .head-login {
+        font-size: 14px;
+    }
+
+    .expand-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    .full-layout {
+        margin: 10px 20px 20px 20px;
+    }
+}
