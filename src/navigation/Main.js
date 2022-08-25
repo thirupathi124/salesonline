@@ -16,13 +16,12 @@ function Main() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-
                     <Route path="/" element={<Homepage />} />
+                    <Route path="/e-website" element={<Homepage />} />                   
                     <Route path="/allcloth" element={<SecondPage />} />
                     <Route path="/allcloth" element={<Header />} />
                     <Route path="/sarees" element={<Sarees />} />
                     <Route path="/collectioncolor" element={<Color />} />
-
                     <Route path="/paymentmode" element={<Pay />} />
                     <Route path="/orderdetail" element={<Data />} />
                     <Route path="/orderdata" element={<OrderData />} />
