@@ -553,6 +553,7 @@ b {
 .fine-width {
     width: 100%;
     height: auto;
+   
 }
 
 .color-title {
@@ -1051,7 +1052,7 @@ b {
     }
 
     .fine {
-        width: 100%;
+        width: 150px;
         height: auto;
     }
 
@@ -1060,7 +1061,7 @@ b {
     }
 
     .jewell-style {
-        width: 100%;
+        width: 150px;
         height: auto;
     }
 
@@ -1084,12 +1085,16 @@ b {
 
     .jewell-flex {
         display: grid;
-        grid-template-columns: repeat(2, 180px)
+        grid-template-columns: repeat(2, 180px);
+        margin: 0px 10px 0px 40px;
+     
+       
     }
 
     .fine-flex {
         display: grid;
         grid-template-columns: repeat(2, 180px);
+        margin: 0px 20px 0px 20px;
     }
 
     .class-name {
@@ -1098,13 +1103,7 @@ b {
         font-size: 10px;
         margin-bottom: 20px;
         padding: 5px 10px 5px 10px;
-
     }
-
-
-
-
-
 }
 
 @media screen and (max-width:1280px) {
@@ -1182,7 +1181,7 @@ b {
     }
 
     .jewell-flex {
-        gap: 30px;
+        gap: 10px;
     }
 
     .fine-flex {
