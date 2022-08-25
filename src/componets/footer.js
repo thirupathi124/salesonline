@@ -56,7 +56,7 @@ function Footer() {
                 <div className="bot">
 
 
-                    <div className="copyright">Copyright © Looperex | All Rights Received</div>
+                    <div className="copyright">Copyright © Thirupuathi | All Rights Received</div>
                     <div>
                         <img className="gap" src={Face} />
                         <img className="gap" src={Insta} />
@@ -66,8 +66,8 @@ function Footer() {
                     </div>
 
                     <div className="logo-flex">
-                        <div className="by">powered by</div>
-                        <img src={Loop} />
+                        {/* <div className="by">powered by</div>
+                        <img src={Loop} /> */}
                     </div>
                 </div>
             </div>

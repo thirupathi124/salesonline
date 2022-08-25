@@ -18,14 +18,14 @@ function Main() {
                 <Routes>
 
                     <Route path="/" element={<Homepage />} />
-                    <Route path="/AllCloth" element={<SecondPage />} />
-                    <Route path="/AllCloth" element={<Header />} />
+                    <Route path="/allcloth" element={<SecondPage />} />
+                    <Route path="/allcloth" element={<Header />} />
                     <Route path="/sarees" element={<Sarees />} />
-                    <Route path="/CollectionColor" element={<Color />} />
+                    <Route path="/collectioncolor" element={<Color />} />
 
-                    <Route path="/PaymentMode" element={<Pay />} />
-                    <Route path="/OrderDetail" element={<Data />} />
-                    <Route path="/OrderData" element={<OrderData />} />
+                    <Route path="/paymentmode" element={<Pay />} />
+                    <Route path="/orderdetail" element={<Data />} />
+                    <Route path="/orderdata" element={<OrderData />} />
 
                 </Routes>
 

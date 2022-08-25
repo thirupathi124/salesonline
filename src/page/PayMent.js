@@ -11,7 +11,7 @@ import Women10 from "../asset/image/women10.png";
 import Women11 from "../asset/image/women11.png";
 import Women12 from "../asset/image/women12.png";
 import Carousel from 'react-bootstrap/Carousel'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Slideleft from "../asset/icons/slide-left.svg";
 import Slideright from "../asset/icons/slide-right.svg";
 import Socialpay from "..//asset/icons/facebook-dark.svg";

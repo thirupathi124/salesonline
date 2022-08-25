@@ -37,9 +37,9 @@ function Header() {
                             <div className="block">
                                 <Link to="/allcloth" className="nav">All Apparels</Link>
                                 <Link to="/sarees" className="nav">Sarees &amp; Blouses</Link>
-                                <h5 className="nav">Kurtes</h5>
-                                <h5 className="nav">Dresses</h5>
-                                <h5 className="nav">Tunic Tops</h5>
+                                <Link to="/paymentmode" className="nav">Payment Mode</Link>
+                                <Link to="/orderdetail" className="nav">Order Detail</Link>
+                                <Link to="/orderdata" className="nav">Order Data</Link>
 
                             </div>
                         )}

@@ -2,7 +2,6 @@ import React, { useState, } from "react";
 import { Link } from "react-router-dom";
 import '../styles/Header.css';
 import '../styles/Home.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { cloth } from "../componets/Clothnav";
 import { jewell } from "../componets/JewellNav";
 import { fine } from "../componets/FineJewell";
@@ -20,9 +19,10 @@ import Loremone from "../asset/image/lorem1.png";
 import Dress from "../asset/image/dress.png";
 import Inves from "../asset/image/investment.png";
 import Shopbig from "../asset/image/shop-bag.png";
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 import PayMode from "../componets/PayMode";
-
+import 'bootstrap/dist/css/bootstrap.css';
+import { Button } from "bootstrap";
 
 
 function Homepage() {
@@ -340,6 +340,7 @@ function Homepage() {
           </div>
 
           <div className="about-backcolor">
+           
             <h3 className="color-title">Kariga Fashion is all about</h3>
             <div className="about-flex">
               <div className="first-content">
