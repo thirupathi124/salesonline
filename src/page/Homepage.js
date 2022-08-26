@@ -228,8 +228,7 @@ function Homepage() {
               <img className="img-size" src={Lorem} alt="logo" />
 
             </div>
-            <img className="lorem-img" src={Loremone} alt="logo" />
-
+          
 
           </div>
 

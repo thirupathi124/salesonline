@@ -377,7 +377,8 @@ b {
 .img-size {
     width: 398px;
     height: 638px;
-    position: relative;
+   
+    margin-top: 20px;
 }
 
 
@@ -453,6 +454,7 @@ b {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap:10px;
 
 }
 
@@ -601,7 +603,7 @@ b {
 }
 
 .about-backcolor {
-    width: 82%;
+    width: 100%;
     height: 400px;
     background: #FFF1DF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -830,7 +832,7 @@ b {
 
     .arrivals {
         display: grid;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(4, 180px);
        
         align-items: center;
         gap:5px;
@@ -1013,7 +1015,7 @@ b {
     }
 
     .about-backcolor {
-        width: auto;
+        width: 100%;
         height: 100%;
 
     }
@@ -1124,7 +1126,7 @@ b {
     }
 
     .about-backcolor {
-        width: auto;
+        width: 100%;
     }
 
     .jewell-title {
@@ -1165,7 +1167,7 @@ b {
 @media screen and (max-width:1500px) {
 
     .about-backcolor {
-        width: auto;
+        width: 100%;
     }
 
     .lorem-img {
