@@ -157,8 +157,8 @@ b {
 }
 
 .arrival-img-diff {
-    width: 290px;
-    height: 544px;
+    width: 100%;
+    height: auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #CED4DA;
     opacity: 1;
@@ -830,7 +830,12 @@ b {
 
     .arrivals {
         display: grid;
-        grid-template-columns: repeat(4, 200px)
+        grid-template-columns: repeat(2, 200px);
+        justify-content: space-between;
+        align-items: center;
+        gap:5px;
+        margin: 0px 15px 0px 15px;
+
     }
 
     .right,
@@ -841,7 +846,6 @@ b {
     .footer {
         height: auto;
     }
-
     .map {
         width: 100%;
         height: auto;
@@ -1012,22 +1016,16 @@ b {
         height: 100%;
 
     }
-
-    .arrival-img-diff {
-        width: 100%;
+    .arrival-img-diff
+     {
+        width: 150px;
         height: auto;
     }
 
     .arrival-align {
         padding: 5px 0px 15px 10px;
     }
-
-    .arrival-text {
-
-        padding: 0;
-    }
-
-    .arrival {
+   .arrival {
         padding: 20px 0px 40px 0px;
     }
 
@@ -1104,6 +1102,11 @@ b {
         margin-bottom: 20px;
         padding: 5px 10px 5px 10px;
     }
+    .jewell-title{
+        width: auto;
+        margin-left: 70px; 
+    }
+
 }
 
 @media screen and (max-width:1280px) {
@@ -1129,10 +1132,10 @@ b {
 
 
 
-    .arrival-img-diff {
+    /* .arrival-img-diff {
         width: 100%;
         height: auto;
-    }
+    } */
 
     .first-try {
         width: 100%;
@@ -1185,7 +1188,7 @@ b {
     }
 
     .fine-flex {
-        gap: 30px;
+        gap: 10px;
     }
 
     .first-try {

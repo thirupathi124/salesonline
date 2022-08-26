@@ -182,6 +182,7 @@
 
     .crd-text {
         padding: 0;
+        display: none;
     }
 
     .complete-btn {

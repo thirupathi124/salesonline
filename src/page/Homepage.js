@@ -118,9 +118,9 @@ function Homepage() {
                           <div className="arrival-img-diff">
                             <img className="new-arival" src={item.icon} alt="logo" />
 
-                            <div className="try">
+                            {/* <div className="try">
                               <button className="try-view">Quick View</button>
-                            </div>
+                            </div> */}
 
                             <div className="arrival-align">
                               <div className="arrival-text">{item.type}</div>
@@ -148,9 +148,9 @@ function Homepage() {
                           <div className="arrival-img-diff">
                             <img className="new-arival" src={item.icon} alt="logo" />
 
-                            <div className="try">
+                            {/* <div className="try">
                               <button className="try-view">Quick View</button>
-                            </div>
+                            </div> */}
                             <div className="arrival-align">
                               <div className="arrival-text">{item.type}</div>
                               <h4 className="title">{item.product}</h4>
@@ -234,7 +234,7 @@ function Homepage() {
           </div>
 
           <div className="jewell">
-            <h3 className="jewell-title">Jewellery &amp; Accessories</h3>
+            <h3 className="jewell-title">Jewellery</h3>
             <h3 className="jewell-head">Fashion Jewellery</h3>
             <Carousel>
               <Carousel.Item>
@@ -245,9 +245,9 @@ function Homepage() {
                     <div key={index} className="jewell-style">
                       <img className="jeweell" src={item.icon} alt="logo" />
 
-                      <div className="jewell-pop">
+                      {/* <div className="jewell-pop">
                         <button className="try-jewell">Quick View</button>
-                      </div>
+                      </div> */}
 
                       <div className="arrival-align">
                         <p className="arrival-text">{item.type}</p>
