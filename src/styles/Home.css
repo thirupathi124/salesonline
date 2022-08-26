@@ -831,10 +831,10 @@ b {
     .arrivals {
         display: grid;
         grid-template-columns: repeat(2, 200px);
-        justify-content: space-between;
+       
         align-items: center;
         gap:5px;
-        margin: 0px 15px 0px 15px;
+       
 
     }
 
@@ -885,8 +885,9 @@ b {
         position: absolute;
         left: 20%;
         font-size: 15px;
-
-
+    }
+    .slidejs{
+        margin:0px 30px 30px 30px;
     }
 
     .try-view {
