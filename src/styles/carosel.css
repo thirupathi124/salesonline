@@ -1,0 +1,133 @@
+.caro-title{
+    text-align: center;
+    color: gray;
+    padding-top: 50px;
+}
+.caro-para{
+  text-align: center;
+  color: gray;
+  padding:20px 0px  50px 0px;
+}
+.caro-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.caro-card{
+    background: palevioletred;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 40px 0px 30px 40px;
+}
+.person{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid white;
+ }
+ .goal{
+    padding-left: 34px;
+ }
+ .all-photo{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .photo-size{
+    width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .carousel-indicators{
+    bottom: -40px !important
+    
+}
+.caro-color{
+    background: whitesmoke;
+    padding: 50px 0px 50px 0px;
+}
+.carousel-control-next-icon{
+    display: none !important
+}
+.carousel-control-prev-icon{
+    display: none !important
+}
+p{
+    margin: 0  !important;
+}
+
+
+@media only screen and (max-width:800px) {
+    .all-photo{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .trans-img{
+        width: 300px;
+    }
+    .caro-card{
+        margin: 10px;
+    }
+    
+}
