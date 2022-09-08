@@ -106,7 +106,14 @@ function Carouse(){
           </div>
         
          </div>
+           <div className="btn-insta">
+             <button className="load">Load More...</button>
+             <div className="follow">
+             <i className="bi-instagram"/>
+             <button className="fall" >Follow on Instagram</button>
 
+             </div>
+            </div>
         </div>
 
     )

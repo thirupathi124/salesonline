@@ -70,7 +70,7 @@ function Home(){
                 </div>
                 <div>
                 <img className="radius" src={FourImg} alt="logo"/>
-                <p className="product-title">Accerssories</p>
+                <p className="product-title">Accer</p>
                 </div>
                 <div>
                 <img className="radius" src={ThreeImg} alt="logo"/>
