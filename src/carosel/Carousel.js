@@ -4,7 +4,11 @@ import OneImg from "../images/1.png"
 import TenImg from "../images/10.jpg"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
-import {photo} from "../map/Image"
+import {photo} from "../map/Image";
+import Seven from "../images/18.jpg"
+import Eig from "../images/19.jpg"
+import Nin from "../images/20.jpg"
+import Ten from "../images/21.jpg"
 
 
 function Carouse(){
@@ -18,19 +22,19 @@ function Carouse(){
              <Carousel.Item>
                 <div className="caro-flex">
 
-                <img src={OneImg} alt="logo"/>
-                <img src={OneImg} alt="logo"/>
-                <img src={OneImg} alt="logo"/>
-                <img src={OneImg} alt="logo"/>
+                <img src={Seven} alt="logo"/>
+                <img src={Ten} alt="logo"/>
+                <img src={Nin} alt="logo"/>
+                <img src={Eig} alt="logo"/>
                 </div> 
               </Carousel.Item>
               <Carousel.Item>
                 <div className="caro-flex">
 
-                <img src={OneImg} alt="logo"/>
-                <img src={OneImg} alt="logo"/>
-                <img src={OneImg} alt="logo"/>
-                <img src={OneImg} alt="logo"/>
+                <img src={Seven} alt="logo"/>
+                <img src={Eig} alt="logo"/>
+                <img src={Nin} alt="logo"/>
+                <img src={Ten} alt="logo"/>
                 </div> 
               </Carousel.Item>
            </Carousel>

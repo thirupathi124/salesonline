@@ -24,24 +24,32 @@ export default function Section(){
             <div className="shipping">
                 <div>
                   <div className="review-flex">
-                    <i className="bi-check"/>
-                    <h1>Bespoke Balcoins</h1>
+                    <i style={{fontSize:"30px",color:"wheat"}} className="bi-cart-check"/>
+                    <h4>Bespoke Balcoins</h4>
                    
                 </div>
                 <p className="ship-detail">We have transparent all product and pakages.</p>
                 </div>
                 <div>
                   <div className="review-flex">
-                    <i className="bi-check"/>
-                    <h1>Fast Touraround</h1>
+                    <i style={{fontSize:"30px",color:"wheat"}} className="bi-fast-forward"/>
+                    <h4>Fast Touraround</h4>
                    
                 </div>
                 <p className="ship-detail"> Sponsore by world wide tour We have transparent all product and pakages.</p>
                 </div>
                 <div>
                   <div className="review-flex">
-                    <i className="bi-check"/>
-                    <h1>Shipping</h1>
+                    <i style={{fontSize:"30px",color:"wheat"}} className="bi-truck"/>
+                    <h4>Shipping</h4>
+                   
+                </div>
+                <p className="ship-detail">We have transparent all product and pakages.</p>
+                </div>
+                <div>
+                  <div className="review-flex">
+                    <i style={{fontSize:"30px",color:"wheat"}} className="bi-people"/>
+                    <h4>Direct Visits.</h4>
                    
                 </div>
                 <p className="ship-detail">We have transparent all product and pakages.</p>

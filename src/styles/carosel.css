@@ -15,11 +15,12 @@
     justify-content: center;
 }
 .caro-card{
-    background: palevioletred;
+    background: linear-gradient(to right,rgb(82, 71, 52),whitesmoke);
     padding: 20px;
     width: 500px;
     border-radius: 10px;
     margin: 40px 0px 30px 40px;
+    
 }
 .person{
     display: flex;
@@ -38,6 +39,9 @@
  }
  .photo-size{
     width: 100%;
+ }
+ .caro-flex img {
+    width:100%;
  }
 
 
@@ -120,8 +124,8 @@ p{
 
 @media only screen and (max-width:800px) {
     .all-photo{
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(3,70px);
     }
     .trans-img{
         width: 300px;
@@ -131,6 +135,10 @@ p{
     }
     .caro-para{
         padding: 0;
+    }
+    .caro-flex{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
     }
     
 }

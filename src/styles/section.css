@@ -10,7 +10,7 @@
     width: 100%;
 }
 .sellers-product{
-    box-shadow: 0px 0px 9px gray;
+    box-shadow: 0px 0px 9px #887070;
 }
 .section{
     margin: 0px 100px 0px 100px;
@@ -51,15 +51,15 @@
 }
 .shipping{
     display:flex;
-    justify-content: space-around;
-    background:rgb(204, 193, 193);
+    justify-content: space-evenly;
+    background: rgb(245 240 240);
     padding: 50px;
     width: 100%;
     flex-wrap: wrap;
 }
 .ship-detail{
-    padding-left: 40px;
-    width: 240px;
+    padding-left: 50px;
+    width: 290px;
     padding-top: 10px;
 }
 
@@ -71,12 +71,14 @@
         margin: 0;
     }
     .grid{
-        display:flex;
-        flex-wrap: wrap;
+        grid-template-columns: repeat(2,150px);
         width: 300px;
         margin: 40px;
     }
     .card-flex{
         gap: 50px;
+    }
+    .shipping{
+        display: block;
     }
 }

@@ -181,6 +181,7 @@ padding-bottom: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 20px 0px 20px 0px;
 }
 .insta{
     color: rgb(116, 12, 12);
@@ -201,6 +202,7 @@ padding-bottom: 20px;
     }
     .image-section{
         top:90%;
+        gap:10px;
     }
     .hero{
       height: 400px;
