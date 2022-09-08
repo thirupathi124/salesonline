@@ -129,5 +129,8 @@ p{
     .caro-card{
         margin: 10px;
     }
+    .caro-para{
+        padding: 0;
+    }
     
 }

@@ -28,11 +28,11 @@ function Home(){
                     </div>
                     <div className="account">
                         <i className="bi-envelope"/>
-                        <p>My Account</p>
+                        <p>FAQ</p>
                     </div>
                     <div className="account">
                         <i className="bi-check"/>
-                        <p>My Account</p>
+                        <p>CheckOut</p>
                     </div>
                 </div>
              </div>

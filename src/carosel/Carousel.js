@@ -90,7 +90,7 @@ function Carouse(){
         </div>
         <div className="photos">
            <div className="photo-flex">
-          <i style={{background:"black",fontSize:"20px",borderRadius:"100%",padding:"5px 10px 10px 10px",color:"whitesmoke"}} className="bi-instagram"/>
+          <i style={{background:"black",fontSize:"20px",borderRadius:"100%",padding:"7px 11px 10px 10px",color:"whitesmoke"}} className="bi-instagram"/>
           <p className="insta">Instagram</p>
           </div>
          

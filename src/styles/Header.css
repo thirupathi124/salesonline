@@ -37,7 +37,7 @@
 }
 .user{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .main-logo{
     display: flex;
@@ -201,6 +201,9 @@ padding-bottom: 20px;
     }
     .image-section{
         top:90%;
+    }
+    .hero{
+      height: 400px;
     }
  
 }
