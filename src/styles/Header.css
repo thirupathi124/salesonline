@@ -121,8 +121,7 @@ padding-bottom: 20px;
     top: 80%;
     display: flex;
     gap: 20px;
-    left: 3%;
-    align-items: center;    
+    left: 7%;
 
 }
 .radius{
@@ -134,6 +133,7 @@ padding-bottom: 20px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top:50px
 }
 .trans-img{
     width: 450px;
@@ -203,6 +203,7 @@ padding-bottom: 20px;
     .image-section{
         top:90%;
         gap:10px;
+        left: 1%;
     }
     .hero{
       height: 400px;

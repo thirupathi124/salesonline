@@ -22,12 +22,12 @@ const seller = [
     },
     {
         img:FiveImg,
-        name:"Storage box and siting",
+        name:"Storage box ",
         price:"₹388,90 /-"
     },
     {
         img:SixImg,
-        name:"Mini bad and Sofa with sleep",
+        name:"Mini bad and Sofa",
         price:"₹312,33 /-"
     },
     {
@@ -42,8 +42,8 @@ const seller = [
     },
     {
         img:NinImg,
-        name:"Dining Room with Bed",
-        price:"₹1300 /-"
+        name:"Dining Room",
+        price:"₹13,000 /-"
     },
     {
         img:TenImg,
@@ -52,7 +52,7 @@ const seller = [
     },
     {
         img:FiveImg,
-        name:"Good Sleeping and Dreams",
+        name:"Good Sleeping",
         price:"₹23,300 /-"
     },
     

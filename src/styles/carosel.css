@@ -15,11 +15,12 @@
     justify-content: center;
 }
 .caro-card{
-    background: linear-gradient(to right,rgb(82, 71, 52),whitesmoke);
+    background: linear-gradient(to right,#009688,#185383);
     padding: 20px;
     width: 500px;
     border-radius: 10px;
     margin: 40px 0px 30px 40px;
+    color: whitesmoke;
     
 }
 .person{
@@ -131,7 +132,7 @@ p{
         width: 300px;
     }
     .caro-card{
-        margin: 10px;
+        margin: 40px 10px 10px 10px;
     }
     .caro-para{
         padding: 0;
