@@ -29,7 +29,7 @@ function Carouse(){
                 </div> 
               </Carousel.Item>
               <Carousel.Item>
-                <div className="caro-flex">
+                   <div className="caro-flex">
 
                 <img src={Seven} alt="logo"/>
                 <img src={Eig} alt="logo"/>
@@ -43,10 +43,10 @@ function Carouse(){
         <div className="caro-card">
             <Carousel>
                 <Carousel.Item>
-            <div className="person">
-                <i className="bi-person"/>
+            <div className="people">
+                <i style={{fontSize:"20px"}} className="bi-person"/>
                 <div >
-                <p>Thirupahit</p>
+                <h4 className="name">Thirupahit</h4>
                               
                 <i className="bi-star-fill"/>
                 <i className="bi-star-fill"/>
@@ -60,14 +60,14 @@ function Carouse(){
             </div>
             </Carousel.Item>
             <Carousel.Item>
-            <div className="person">
-                <i className="bi-person"/>
+            <div className="people">
+                <i style={{fontSize:"20px"}} className="bi-person"/>
                 <div >
-                <p>Thirupahit</p>
+                <h4 className="name">Thirupahit</h4>
                               
-                <i style={{color:"gold"}} className="bi-star-fill"/>
-                <i style={{color:"gold"}} className="bi-star-fill"/>
-                <i  className="bi-star"/>
+                <i className="bi-star-fill"/>
+                <i className="bi-star-fill"/>
+                <i className="bi-star-fill"/>
                 <i className="bi-star"/>
                 </div>
 

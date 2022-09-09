@@ -33,7 +33,7 @@ function Home(){
                         <p>FAQ</p>
                     </div>
                     <div className="account">
-                        <i className="bi-check"/>
+                        <i className="bi-check-circle"/>
                         <p>CheckOut</p>
                     </div>
                 </div>
@@ -47,7 +47,6 @@ function Home(){
                     <p className="link">Shop</p>
                     <p className="link">Media</p>
                 </div>
-                <i style={{fontSize:"20px",color:"white"}} className="bi-wallet-fill"/>
                </div>
            </header>
            <div className="main-hero">

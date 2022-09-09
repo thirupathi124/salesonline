@@ -1,16 +1,25 @@
 .product-title{
     text-align: center;
+    font-family: "lobster";
 }
 .section-title{
     margin-top: 250px;
     text-align: center;
     color: gray;
+    font-family:"lobster";
 }
 .sell-img{
     width: 100%;
 }
 .sellers-product{
-    box-shadow: 0px 0px 9px #887070;
+    box-shadow: 0px 0px 9px #7a7575;
+    cursor: pointer;
+
+}
+.sellers-product:hover{
+    box-shadow: 0px 0px 9px #131212;
+    cursor: pointer;
+
 }
 .section{
     margin: 0px 100px 0px 100px;
@@ -61,6 +70,11 @@
 .ship-detail{
     padding-left: 50px;
     width: 290px;
+    font-family: "lobster";
+}
+.ship-title{
+    font-family:"lobster";
+    font-weight: 800;
 }
 
 @media only screen and (max-width:800px) {

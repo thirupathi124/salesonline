@@ -1,4 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +30,6 @@
     outline: none;
     border: none;
     background: whitesmoke;
-    cursor: pointer;
     width: 600px;
 
 }
@@ -38,6 +40,8 @@
 .user{
     display: flex;
     gap: 20px;
+    cursor: pointer;
+
 }
 .main-logo{
     display: flex;
@@ -59,8 +63,9 @@
 .navigation{
     display: flex;
     justify-content: space-around;
-    background: gray;
+    background: rgb(32, 32, 32);
     height: 25px;
+    align-items: center;
     padding: 20px 0px 50px 0px;
 }
 .main-hero{
@@ -79,7 +84,7 @@
     color: whitesmoke;
     text-align: center;
     padding: 0px 0px 10px 0px;
-
+    font-family:"lobster";
 }
 .title{
     position: absolute;
@@ -91,6 +96,7 @@
 color: white;
 text-align: center;
 padding-bottom: 20px;
+font-family: "lobster";
 }
 .btn-one{
     outline: none;
@@ -157,15 +163,17 @@ padding-bottom: 20px;
 }
 .caro-text{
    color: whitesmoke;
+   font-family: "lobster";
    /* text-align: center; */
 }
 .artical{
     color: whitesmoke;
     text-align: center;
     padding: 0px 10px 0px 20px;
+    font-family: "lobster";
 }
 .view{
-    margin: 50px auto;
+    margin: 20px auto;
     display: block;
 }
 .view{

@@ -2,11 +2,13 @@
     text-align: center;
     color: gray;
     padding-top: 50px;
+    font-family: "lobster";
 }
 .caro-para{
   text-align: center;
   color: gray;
   padding:20px 0px  50px 0px;
+  font-family: "lobster";
 }
 .caro-flex{
     display: flex;
@@ -23,10 +25,16 @@
     color: whitesmoke;
     
 }
-.person{
+.people{
     display: flex;
     gap: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid white;
+    color: black;
+    
+ }
+ .name{
+    font-family: "lobster";
  }
  .goal{
     padding-left: 34px;
@@ -44,11 +52,7 @@
  .caro-flex img {
     width:100%;
  }
- .btn-insta{
-    /* display:flex; */
-  
-   
- }
+
  .btn-insta{
    display: flex;
    align-items: center;
@@ -82,7 +86,10 @@
     color:white;
     padding-left: 10px;
 }
-
+.goal  p{
+   font-family: "lobster";
+   padding-top: 15px;
+}
 
 
 
@@ -180,5 +187,11 @@ p{
         display: grid;
         grid-template-columns: repeat(2,150px);
     }
-    
+    .btn-insta{
+        display:inline-block;
+    }
+    .follow{
+        margin: 30px 30px 0px 0px;
+    }
+
 }

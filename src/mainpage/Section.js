@@ -25,7 +25,7 @@ export default function Section(){
                 <div>
                   <div className="review-flex">
                     <i style={{fontSize:"30px",color:"wheat"}} className="bi-cart-check"/>
-                    <h4>Bespoke Balcoins</h4>
+                    <h4 className="ship-title">Bespoke Balcoins</h4>
                    
                 </div>
                 <p className="ship-detail">We have transparent all product and pakages.</p>
@@ -33,7 +33,7 @@ export default function Section(){
                 <div>
                   <div className="review-flex">
                     <i style={{fontSize:"30px",color:"wheat"}} className="bi-fast-forward"/>
-                    <h4>Fast Touraround</h4>
+                    <h4  className="ship-title">Fast Touraround</h4>
                    
                 </div>
                 <p className="ship-detail"> Sponsore by world wide tour We have transparent all product and pakages.</p>
@@ -41,7 +41,7 @@ export default function Section(){
                 <div>
                   <div className="review-flex">
                     <i style={{fontSize:"30px",color:"wheat"}} className="bi-truck"/>
-                    <h4>Shipping</h4>
+                    <h4  className="ship-title">Shipping</h4>
                    
                 </div>
                 <p className="ship-detail">We have transparent all product and pakages.</p>
@@ -49,7 +49,7 @@ export default function Section(){
                 <div>
                   <div className="review-flex">
                     <i style={{fontSize:"30px",color:"wheat"}} className="bi-people"/>
-                    <h4>Direct Visits.</h4>
+                    <h4  className="ship-title">Direct Visits.</h4>
                    
                 </div>
                 <p className="ship-detail">We have transparent all product and pakages.</p>
