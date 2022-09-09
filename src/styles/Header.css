@@ -63,9 +63,8 @@
 .navigation{
     display: flex;
     justify-content: space-around;
-    background: rgb(32, 32, 32);
+    background: rgb(63, 78, 71);
     height: 25px;
-    align-items: center;
     padding: 20px 0px 50px 0px;
 }
 .main-hero{
@@ -127,7 +126,7 @@ font-family: "lobster";
     top: 80%;
     display: flex;
     gap: 20px;
-    left: 7%;
+    left: 3%;
 
 }
 .radius{
@@ -164,6 +163,8 @@ font-family: "lobster";
 .caro-text{
    color: whitesmoke;
    font-family: "lobster";
+   color: orangered;
+   text-decoration: underline;
    /* text-align: center; */
 }
 .artical{
@@ -211,7 +212,7 @@ font-family: "lobster";
     .image-section{
         top:90%;
         gap:10px;
-        left: 1%;
+        right: 2%;
     }
     .hero{
       height: 400px;
